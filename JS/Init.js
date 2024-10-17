@@ -322,7 +322,7 @@ NextButton5.addEventListener("click", async function() {
 });
 
 NextButton6.addEventListener("click", async function() {
-    open("https://ensa.uit.ac.ma/activites-parascolaires/clubs-et-associations/")
+    window.href = "https://ensa.uit.ac.ma/activites-parascolaires/clubs-et-associations/";
 });
 
 let LastOnElement = null
