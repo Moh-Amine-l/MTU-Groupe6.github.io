@@ -1,0 +1,131 @@
+#ChooseLg {
+  overflow: hidden;
+  position: absolute;
+  width: 90%;
+  height: 90%;
+  left: 5%;
+  top: 9%;
+  background: var(--backgroundcontainer);
+  backdrop-filter: blur(4px);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 1s ease;
+}
+
+  #Container1 {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 1s ease;
+    transform: translateY(100%);
+  }
+  #Container2 {
+    justify-content: flex-start;
+    overflow-y: scroll;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    transition: 1s ease;
+    display: none;
+    flex-direction: column;
+    transform: translateX(100%);
+  }
+  #Container2::-webkit-scrollbar {
+    height: 10px;
+  }
+  
+  #Container2::-webkit-scrollbar-thumb,
+  #Container2::-webkit-scrollbar-track {
+    border-radius: 92px;
+  }
+  
+  #Container2::-webkit-scrollbar-thumb {
+    background:rgb(214, 214, 214);
+  }
+  
+  #Container2::-webkit-scrollbar-track {
+    background:transparent;
+  }
+  #Container3 {
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    transition: 1s ease;
+    display: none;
+    flex-direction: column;
+    transform: translateY(100%);
+  }
+  #Container4 {
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    transition: 1s ease;
+    display: none;
+    flex-direction: column;
+    transform: translateX(100%);
+  }
+  #Container5 {
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    transition: 1s ease;
+    display: none;
+    flex-direction: column;
+    transform: translateY(100%);
+  }
+  #Container6 {
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    transition: 1s ease;
+    display: none;
+    flex-direction: column;
+    transform: translateY(100%);
+  }
+  #GridX0 {
+    height: 80%;
+    width: 90%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+  #GridX0::-webkit-scrollbar {
+    height: 10px;
+  }
+  
+  #GridX0::-webkit-scrollbar-thumb,
+  #GridX0::-webkit-scrollbar-track {
+    border-radius: 92px;
+  }
+  
+  #GridX0::-webkit-scrollbar-thumb {
+    background:rgb(214, 214, 214);
+  }
+  
+  #GridX0::-webkit-scrollbar-track {
+    background:transparent;
+  }
+  #GridX1 {
+    height: 80%;
+    width: 90%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-content: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    position: relative;
+  }
