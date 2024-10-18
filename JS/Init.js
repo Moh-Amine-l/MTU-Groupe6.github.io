@@ -126,6 +126,14 @@ const TitleX7 = GID("TitleX7");
 
 const GridX1 = GID("GridX1");
 
+
+function isMobileDevice() {
+    return /Mobi|Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
+}
+
+if (isMobileDevice()) alert("This WebSite wasn't made for mobile.")
+
+
 let isLight = false;
 ModeLight.onclick = async function() {
     isLight = !isLight;
@@ -322,6 +330,7 @@ NextButton5.addEventListener("click", async function() {
 });
 
 NextButton6.addEventListener("click", async function() {
+   // window.href = "https://ensa.uit.ac.ma/activites-parascolaires/clubs-et-associations/";
 });
 
 let LastOnElement = null
